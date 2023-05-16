@@ -18,7 +18,7 @@ this.after("READ", Risks, (data) => {
     if (risk.impact >= 100000) {
       risk.criticality = 1;
     } else {
-      risk.criticality = 2;
+      risk.criticality = 3;
     }
   });
 });
